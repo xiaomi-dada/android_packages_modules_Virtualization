@@ -22,6 +22,7 @@ aidl_interface {
         },
         ndk: {
             apex_available: [
+                "//apex_available:platform",
                 "com.android.virt",
                 "com.android.compos",
             ],
@@ -65,6 +66,7 @@ aidl_interface {
         },
         ndk: {
             apex_available: [
+                "//apex_available:platform",
                 "com.android.virt",
             ],
         },
@@ -148,6 +150,7 @@ aidl_interface {
         },
         ndk: {
             apex_available: [
+                "//apex_available:platform",
                 "com.android.virt",
                 "com.android.compos",
             ],
